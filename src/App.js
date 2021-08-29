@@ -1,25 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Sheet from './UI Components/Cards and Sections/Sheet';
+import Card from './UI Components/Cards and Sections/Card';
+import { RESUME_SUB_TITLES }  from './assets/resumeDetails';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+const App = () => (
+  <h2>React Reusable UI Components</h2>  
+)
 export default App;
